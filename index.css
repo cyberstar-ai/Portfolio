@@ -16,6 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+    padding-right: 20px;
     align-items: center;
     box-shadow: 0 4px 12px 0 rgba(114, 96, 214, 0.2);
     z-index: 100;
@@ -53,6 +54,7 @@ nav ul li .home{
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    padding: 0 20px;
 }
 .hero h1{
     color: white;
@@ -70,6 +72,7 @@ nav ul li .home{
     line-height: 1.5;
     font-weight: 100;
     margin-bottom: 2rem;
+    font-weight: bold;
 }
 .btn{
     display: flex;
@@ -86,8 +89,10 @@ nav ul li .home{
 }
 button a{
     text-decoration: none;
+    color: inherit;
 }
 button:nth-child(1){
+    background-color: transparent;
     color: #3b82f6;
 }
 button:nth-child(1):hover{
@@ -133,11 +138,13 @@ button:nth-child(1):hover{
     margin-bottom: 1rem;
     text-decoration: none;
     text-align: center;
+    font-size: 26px;
 
 }
 .about-content p{
     line-height: 1.6;
     color: white;
+    max-width: 300px;
     margin-bottom: 1rem;
 }
 .about .item{
@@ -157,7 +164,7 @@ button:nth-child(1):hover{
 }
 .img img{
     width: 200px;
-    height: 200px;
+    height: 220px;
     border-radius: 50%;
     box-shadow: 0 2px 8px 0 rgba(18, 91, 201, 0.5);
     border: none;
@@ -182,7 +189,7 @@ button:nth-child(1):hover{
 }
 .line hr{
     height: 3px;
-    background-color: rgb(252, 7, 48);
+    background-color: white;
     border: none;
 }
 .project-content h3{
